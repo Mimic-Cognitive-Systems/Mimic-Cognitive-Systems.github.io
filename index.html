@@ -375,47 +375,6 @@
         .border-orange { border-left-color: #f97316; }
         .border-blue { border-left-color: #60a5fa; }
         .border-purple { border-left-color: #a78bfa; }
-         /* ========== FIX SMALL SIZE ON WEB ========== */
-@media screen {
-  body {
-    /* Turn OFF print dimensions */
-    width: 100% !important;
-    max-width: 1200px !important;
-    height: auto !important;
-    min-height: 100vh;
-
-    /* Proper padding for web */
-    padding: 32px !important;
-
-    /* Increase readability */
-    font-size: 16px !important;
-    line-height: 1.55 !important;
-
-    /* Allow scrolling */
-    overflow: auto !important;
-
-    /* Center the content */
-    margin: 0 auto !important;
-  }
-
-  /* Ensure sections scale normally */
-  .page-corners::before,
-  .page-corners::after {
-    position: absolute !important;
-  }
-}
-
-/* Keep your exact print layout for PDFs */
-@media print {
-  body {
-    width: 8.5in;
-    height: 11in;
-    padding: 0.35in;
-    font-size: 10px;
-    overflow: hidden;
-  }
-}
-
     </style>
 </head>
 <body>
